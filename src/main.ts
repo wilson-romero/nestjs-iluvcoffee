@@ -8,6 +8,7 @@ async function bootstrap() {
     {
       forbidNonWhitelisted: true,
       whitelist: true,
+      transform: true, 
     }
   ))
   await app.listen(3000);
